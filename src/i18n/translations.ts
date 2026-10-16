@@ -111,7 +111,7 @@ export const translations = {
     },
     favorites: {
       title: 'Tên con yêu thích & Bảng so sánh',
-      subtitle: 'Nơi lưu giữ các tên cha mẹ tâm đắc. Dữ liệu lưu an toàn trên máy của bạn (localStorage), không lo bị mất.',
+      subtitle: 'Nơi lưu giữ các tên cha mẹ tâm đắc',
       emptyTitle: 'Chưa có tên nào trong danh sách yêu thích',
       emptySub: 'Hãy duyệt danh sách gợi ý và nhấn biểu tượng trái tim để lưu các tên ưng ý vào đây.',
       btnCompare: 'So sánh chi tiết các tên',
@@ -125,7 +125,7 @@ export const translations = {
     about: {
       title: 'Về dự án Trợ lý Đặt tên thuần Việt',
       internshipInfoTitle: 'Thông tin thực tập sinh & Đơn vị đào tạo',
-      internshipInfoContent: 'Sản phẩm thực tập của Nguyễn Sinh Hùng, mã sinh viên PH70147, Nhóm 2, Chương trình Thực tập sinh Đợt 15 FPT Polytechnic và IMTA TECH.',
+      internshipInfoContent: 'Sản phẩm thực tập của Nguyễn Sinh Hùng, mã sinh viên PH70147, Nhóm 2, mã đề tài: B04, Chương trình Thực tập sinh Đợt 15 FPT Polytechnic và IMTA TECH.',
       missionTitle: 'Mục tiêu & Sứ mệnh xã hội',
       missionP1: 'Gìn giữ sự trong sáng và vẻ đẹp của tiếng Việt thông qua những cái tên thuần Việt giàu ý nghĩa, thấm đẫm phong vị dân tộc.',
       missionP2: 'Giúp thế hệ trẻ hiểu tường tận nghĩa tên mình, tự hào về cội nguồn và văn hóa của gia đình, quê hương.',
@@ -280,7 +280,7 @@ export const translations = {
     },
     favorites: {
       title: 'Favorite Names & Comparison Chart',
-      subtitle: 'Your family’s curated name shortlist. Data is stored safely on your device (localStorage).',
+      subtitle: 'A place to preserve parents’ favorite names',
       emptyTitle: 'No favorite names saved yet',
       emptySub: 'Browse the suggestion list and click the heart icon to save names here.',
       btnCompare: 'Compare Names Side-by-Side',
@@ -294,7 +294,7 @@ export const translations = {
     about: {
       title: 'About the Vietnamese Pure-Naming Assistant',
       internshipInfoTitle: 'Internship & Institution Details',
-      internshipInfoContent: 'Internship project by Nguyen Sinh Hung, Student ID PH70147, Group 2, Internship Program Batch 15 at FPT Polytechnic and IMTA TECH.',
+      internshipInfoContent: 'Internship project by Nguyen Sinh Hung, Student ID PH70147, Group 2, Project Code: B04, Internship Program Batch 15 at FPT Polytechnic and IMTA TECH.',
       missionTitle: 'Social Mission & Objectives',
       missionP1: 'Preserving the purity and beauty of the Vietnamese language through meaningful pure names rooted in national heritage.',
       missionP2: 'Helping the younger generation understand the profound meaning of their names, fostering cultural pride.',

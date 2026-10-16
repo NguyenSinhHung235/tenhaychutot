@@ -86,10 +86,13 @@ export default function App() {
 
   useEffect(() => {
     localStorage.setItem('app_dark', String(isDarkMode));
+    const root = document.documentElement;
     if (isDarkMode) {
-      document.documentElement.classList.add('dark');
+      root.classList.add('dark');
+      document.body.classList.add('dark');
     } else {
-      document.documentElement.classList.remove('dark');
+      root.classList.remove('dark');
+      document.body.classList.remove('dark');
     }
   }, [isDarkMode]);
 
@@ -308,7 +311,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 transition-colors">
+    <div className={`${isDarkMode ? 'dark ' : ''}min-h-screen flex flex-col bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 transition-colors`}>
       {/* Navigation */}
       <Navbar
         activeScreen={activeScreen}
@@ -440,10 +443,10 @@ export default function App() {
               </div>
               <div>
                 <span className="font-serif font-bold text-slate-900 dark:text-white text-base">
-                  Trợ lý Đặt tên thuần Việt có Giải nghĩa
+                  TenHayChuTot
                 </span>
                 <span className="block text-xs text-slate-500 dark:text-slate-400">
-                  Triết lý: "Tên Việt – Hồn Việt" • 100% Phi lợi nhuận & Miễn phí
+                  "Hồn Việt - Thuần Việt"
                 </span>
               </div>
             </div>
@@ -469,7 +472,7 @@ export default function App() {
           {/* Mandatory Credit notice */}
           <div className="p-4 rounded-2xl bg-blue-50/60 dark:bg-blue-950/30 border border-blue-200/70 dark:border-blue-900/50 text-xs text-center text-slate-700 dark:text-slate-300 space-y-1">
             <p className="font-semibold text-blue-900 dark:text-blue-200">
-              Sản phẩm thực tập của Nguyễn Sinh Hùng, mã sinh viên PH70147, Nhóm 2, Chương trình Thực tập sinh Đợt 15 FPT Polytechnic và IMTA TECH.
+              Sản phẩm thực tập của Nguyễn Sinh Hùng, mã sinh viên PH70147, Nhóm 2, mã đề tài: B04, Chương trình Thực tập sinh Đợt 15 FPT Polytechnic và IMTA TECH.
             </p>
             <p className="text-[11px] text-slate-500 dark:text-slate-400">
               Căn cứ pháp lý: Điều 26 Bộ luật Dân sự 2015 & Thông tư 04/2020/TT-BTP. Thông tin mang tính tham khảo văn hóa, không thay thế văn bản pháp luật chính thức.

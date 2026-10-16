@@ -308,7 +308,7 @@ export const FavoritesScreen: React.FC<FavoritesScreenProps> = ({
                           })
                         }
                         placeholder={t.favorites.notesPlaceholder}
-                        className="flex-1 px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-750 text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        className="flex-1 px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 text-black placeholder:text-slate-500 text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none"
                       />
                       <button
                         type="button"

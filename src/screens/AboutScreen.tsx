@@ -57,7 +57,7 @@ export const AboutScreen: React.FC<AboutScreenProps> = ({ language }) => {
 
           <div className="p-4 sm:p-5 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 text-blue-50 text-sm sm:text-base leading-relaxed space-y-3">
             <p className="font-semibold text-amber-200 text-base sm:text-lg">
-              Sản phẩm thực tập của Nguyễn Sinh Hùng, mã sinh viên PH70147, Nhóm 2, Chương trình Thực tập sinh Đợt 15 FPT Polytechnic và IMTA TECH.
+              Sản phẩm thực tập của Nguyễn Sinh Hùng, mã sinh viên PH70147, Nhóm 2, mã đề tài: B04, Chương trình Thực tập sinh Đợt 15 FPT Polytechnic và IMTA TECH.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs sm:text-sm text-blue-100 border-t border-white/10">
               <div className="flex items-center gap-2">
@@ -66,7 +66,7 @@ export const AboutScreen: React.FC<AboutScreenProps> = ({ language }) => {
               </div>
               <div className="flex items-center gap-2">
                 <Award className="w-4 h-4 text-sky-300" />
-                <span><strong>Mã sinh viên:</strong> PH70147 (Nhóm 2)</span>
+                <span><strong>Mã sinh viên:</strong> PH70147 (Nhóm 2 - Mã đề tài: B04)</span>
               </div>
               <div className="flex items-center gap-2">
                 <Building2 className="w-4 h-4 text-sky-300" />

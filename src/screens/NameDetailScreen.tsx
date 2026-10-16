@@ -184,7 +184,7 @@ export const NameDetailScreen: React.FC<NameDetailScreenProps> = ({
       {/* 360 Degree Breakdown Sections */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* 1. Ý nghĩa thuần Việt & Văn hóa */}
-        <div className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-3">
+        <div className="p-5 sm:p-6 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xs space-y-3">
           <div className="flex items-center gap-2.5 text-blue-800 dark:text-blue-300">
             <LotusSvg size={22} className="text-blue-600 dark:text-blue-400" />
             <h3 className="font-serif text-lg font-bold">
@@ -203,7 +203,7 @@ export const NameDetailScreen: React.FC<NameDetailScreenProps> = ({
         </div>
 
         {/* 2. Nghĩa Hán Việt & Bộ thủ */}
-        <div className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-3">
+        <div className="p-5 sm:p-6 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xs space-y-3">
           <div className="flex items-center gap-2.5 text-blue-800 dark:text-blue-300">
             <BookOpen className="w-5 h-5 text-blue-600 dark:text-blue-400" />
             <h3 className="font-serif text-lg font-bold">
@@ -222,7 +222,7 @@ export const NameDetailScreen: React.FC<NameDetailScreenProps> = ({
         </div>
 
         {/* 3. Ngữ âm & Thanh điệu 3 miền */}
-        <div className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-3">
+        <div className="p-5 sm:p-6 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xs space-y-3">
           <div className="flex items-center gap-2.5 text-blue-800 dark:text-blue-300">
             <Music className="w-5 h-5 text-blue-600 dark:text-blue-400" />
             <h3 className="font-serif text-lg font-bold">
@@ -232,7 +232,7 @@ export const NameDetailScreen: React.FC<NameDetailScreenProps> = ({
           <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
             {name.thanh_dieu || 'Thanh âm hài hòa khi kết hợp cùng họ cha mẹ.'}
           </p>
-          <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-750 text-xs text-slate-600 dark:text-slate-300 space-y-1">
+          <div className="p-3 rounded-xl bg-slate-100/80 dark:bg-slate-800/80 text-xs text-slate-600 dark:text-slate-300 space-y-1">
             <p>• <strong>Miền Bắc:</strong> Phát âm phân biệt rõ thanh hỏi – ngã, âm vang tinh tế.</p>
             <p>• <strong>Miền Trung:</strong> Âm trầm ấm, phát âm đằm thắm, gắn kết tình cảm.</p>
             <p>• <strong>Miền Nam:</strong> Âm điệu cởi mở, vui tươi, đọc liền mạch mượt mà.</p>
@@ -240,7 +240,7 @@ export const NameDetailScreen: React.FC<NameDetailScreenProps> = ({
         </div>
 
         {/* 4. Gợi ý đệm ghép họ & tên */}
-        <div className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-3">
+        <div className="p-5 sm:p-6 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xs space-y-3">
           <div className="flex items-center gap-2.5 text-blue-800 dark:text-blue-300">
             <Layers className="w-5 h-5 text-blue-600 dark:text-blue-400" />
             <h3 className="font-serif text-lg font-bold">
@@ -270,7 +270,7 @@ export const NameDetailScreen: React.FC<NameDetailScreenProps> = ({
         </div>
 
         {/* 5. Ca dao, Tục ngữ & Văn học */}
-        <div className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-3">
+        <div className="p-5 sm:p-6 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xs space-y-3">
           <div className="flex items-center gap-2.5 text-blue-800 dark:text-blue-300">
             <Feather className="w-5 h-5 text-blue-600 dark:text-blue-400" />
             <h3 className="font-serif text-lg font-bold">
@@ -283,7 +283,7 @@ export const NameDetailScreen: React.FC<NameDetailScreenProps> = ({
         </div>
 
         {/* 6. Cảnh báo phạm huý & Tránh nghĩa xấu */}
-        <div className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-3">
+        <div className="p-5 sm:p-6 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xs space-y-3">
           <div className="flex items-center gap-2.5 text-amber-700 dark:text-amber-400">
             <ShieldAlert className="w-5 h-5 text-amber-600" />
             <h3 className="font-serif text-lg font-bold">
@@ -318,7 +318,7 @@ export const NameDetailScreen: React.FC<NameDetailScreenProps> = ({
             value={customInput}
             onChange={(e) => setCustomInput(e.target.value)}
             placeholder={isEn ? 'Enter custom name...' : 'Nhập tên cần phân tích...'}
-            className="flex-1 px-4 py-2.5 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            className="flex-1 px-4 py-2.5 rounded-xl border border-slate-300 dark:border-slate-600 bg-slate-50 text-black placeholder:text-slate-500 text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
           />
           <button
             type="submit"

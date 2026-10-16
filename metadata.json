@@ -1,6 +1,6 @@
 {
   "name": "Trợ lý Đặt tên thuần Việt",
-  "description": "Công cụ phi lợi nhuận giúp tra cứu, gợi ý và giải nghĩa tên thuần Việt chuẩn văn hóa 3 miền, ca dao tục ngữ và Hán - Việt.",
+  "description": "Công cụ tra cứu, gợi ý và giải nghĩa tên thuần Việt chuẩn văn hóa 3 miền, ca dao tục ngữ và Hán - Việt.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

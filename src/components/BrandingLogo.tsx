@@ -145,16 +145,11 @@ export const AppBrandBadge: React.FC<{
       </div>
 
       <div className="flex flex-col">
-        <div className="flex items-center gap-1.5">
-          <span className="font-serif text-lg md:text-xl font-bold tracking-tight text-blue-950 dark:text-white leading-none">
-            Tên Việt
-          </span>
-          <span className="text-xs px-1.5 py-0.5 rounded-full bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-medium">
-            Thuần Việt
-          </span>
-        </div>
+        <span className="font-serif text-lg md:text-xl font-bold tracking-tight text-blue-950 dark:text-white leading-none">
+          TenHayChuTot
+        </span>
         <span className="text-xs font-medium text-slate-500 dark:text-slate-400 tracking-wide mt-0.5">
-          Hồn Việt • Có Giải nghĩa
+          Hồn Việt - Thuần Việt
         </span>
       </div>
     </div>
