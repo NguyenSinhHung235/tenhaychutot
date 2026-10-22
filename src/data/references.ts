@@ -21,7 +21,7 @@ export const OFFICIAL_REFERENCES: ReferenceItem[] = [
     year: '1942 (Tái bản 2018)',
     accessDate: '16/10/2026',
     description: 'Từ điển tiêu chuẩn để tra cứu nguyên nghĩa, tự dạng chữ Hán, gốc từ âm Hán – Việt cho các tên người truyền thống.',
-    url: 'https://thieuchuu.com'
+    url: 'https://hvdic.thivien.net'
   },
   {
     id: 'ref-02',
@@ -31,7 +31,8 @@ export const OFFICIAL_REFERENCES: ReferenceItem[] = [
     publisherOrOrg: 'Viện Ngôn ngữ học Việt Nam, NXB Đà Nẵng',
     year: '2021',
     accessDate: '16/10/2026',
-    description: 'Cơ sở chuẩn mực giải nghĩa từ thuần Việt, từ ngữ dân gian, các sắc thái biểu cảm và thanh điệu ngữ âm tiếng Việt.'
+    description: 'Cơ sở chuẩn mực giải nghĩa từ thuần Việt, từ ngữ dân gian, các sắc thái biểu cảm và thanh điệu ngữ âm tiếng Việt.',
+    url: 'http://www.vienngonnguhoc.gov.vn'
   },
   {
     id: 'ref-03',
@@ -41,7 +42,8 @@ export const OFFICIAL_REFERENCES: ReferenceItem[] = [
     publisherOrOrg: 'Nhà xuất bản Văn hóa Thông tin, Hà Nội',
     year: '2005',
     accessDate: '16/10/2026',
-    description: 'Nghiên cứu khoa học toàn diện về cấu trúc Họ – Tên đệm – Tên chính, quy luật ngữ âm bằng trắc, phong tục kiêng huý 3 miền.'
+    description: 'Nghiên cứu khoa học toàn diện về cấu trúc Họ – Tên đệm – Tên chính, quy luật ngữ âm bằng trắc, phong tục kiêng huý 3 miền.',
+    url: 'https://nlv.gov.vn'
   },
   {
     id: 'ref-04',
@@ -51,7 +53,8 @@ export const OFFICIAL_REFERENCES: ReferenceItem[] = [
     publisherOrOrg: 'Nhà xuất bản Khoa học Xã hội, Hà Nội',
     year: '2014',
     accessDate: '16/10/2026',
-    description: 'Nguồn tư liệu quý giá đối chiếu các từ thuần Nôm mộc mạc như Sen, Lúa, Mây, Nắng, Sương trong văn hóa Đại Việt.'
+    description: 'Nguồn tư liệu quý giá đối chiếu các từ thuần Nôm mộc mạc như Sen, Lúa, Mây, Nắng, Sương trong văn hóa Đại Việt.',
+    url: 'http://www.hannom.org.vn'
   },
   {
     id: 'ref-05',
@@ -61,7 +64,8 @@ export const OFFICIAL_REFERENCES: ReferenceItem[] = [
     publisherOrOrg: 'Nhà xuất bản Văn hóa Thông tin',
     year: '2001',
     accessDate: '16/10/2026',
-    description: 'Tuyển tập hàng ngàn câu ca dao, dân ca 3 miền Bắc – Trung – Nam làm ngữ cảnh trích dẫn văn hóa và hồn cốt dân tộc.'
+    description: 'Tuyển tập hàng ngàn câu ca dao, dân ca 3 miền Bắc – Trung – Nam làm ngữ cảnh trích dẫn văn hóa và hồn cốt dân tộc.',
+    url: 'https://nlv.gov.vn'
   },
   {
     id: 'ref-06',

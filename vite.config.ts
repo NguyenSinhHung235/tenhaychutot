@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import { defineConfig, Plugin } from 'vite';
 import dotenv from 'dotenv';
-import { generatePureVietnameseNamesWithGemini, analyzeCustomNameWithGemini } from './server/geminiService';
+import { generatePureVietnameseNamesWithGemini, analyzeCustomNameWithGemini } from './server/geminiService.ts';
 
 dotenv.config();
 
